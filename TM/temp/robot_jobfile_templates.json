@@ -1,0 +1,14 @@
+{
+    "jobfile_templates": [
+        {
+            "model": "H2017",
+            "description": "Doosan Robotics \ud611\ub3d9\ub85c\ubd07 H2017\uc758 Task Editor \uae30\ubc18 JSON Job File \ud3ec\ub9f7",
+            "jobfile": "{\n  \"application\": \"task-editor\",\n  \"data\": {\n    \"project\": {\n      \"name\": \"Task_Example\",\n      \"model\": \"H2017\",\n      \"fileParameter\": \"robot-param-01\",\n      \"createDate\": \"2025.02.17 16:00:05\",\n      \"updateDate\": \"2025.02.17 16:50:02\"\n    },\n    \"taskList\": [\n      {\n        \"id\": \"123456\",\n        \"type\": \"move_periodic\",\n        \"name\": \"Move Periodic\",\n        \"properties\": {\n          \"coordinates\": 0,\n          \"operatingMode\": \"sync\",\n          \"operationCondition\": \"amplitude\",\n          \"repeatNumber\": 1,\n          \"amplitude\": {\n            \"x\": 10,\n            \"y\": 20,\n            \"z\": 30,\n            \"a\": 0,\n            \"b\": 0,\n            \"c\": 0\n          },\n          \"period\": {\n            \"x\": 5,\n            \"y\": 5,\n            \"z\": 5,\n            \"a\": 0,\n            \"b\": 0,\n            \"c\": 0\n          }\n        }\n      }\n    ]\n  }\n}"
+        },
+        {
+            "model": "HS220",
+            "description": "Yaskawa HS220 \uc0b0\uc5c5\uc6a9 \ub85c\ubd07\uc758 \ud14d\uc2a4\ud2b8 \uae30\ubc18 Job File \ud3ec\ub9f7",
+            "jobfile": "\n            Program File Format Version : 1.6  MechType: 693(HS220-03)  TotalAxis: 6  AuxAxis: 0\n            S1   MOVE P,S=60%,A=3,T=1  (15.098,76.218,-23.05,-327.989,40.853,241.733)A\n            S2   MOVE P,S=60%,A=3,T=1  (13.064,78.627,-23.826,-325.036,41.168,238.127)A\n            S3   MOVE P,S=60%,A=3,T=1  (11.035,81.026,-24.591,-322.088,41.478,234.515)A\n            S4   MOVE P,S=60%,A=3,T=1  (8.995,83.434,-25.361,-319.142,41.795,230.911)A\n            END\n            "
+        }
+    ]
+}
