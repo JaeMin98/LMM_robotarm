@@ -1,5 +1,11 @@
+
+
+
 # LMM_robotarm
 
+
+
+## JM part require
 cuda 
 
 cudnn
@@ -25,3 +31,6 @@ pip install pydub
 pip install gtts
 
 sudo apt-get install mpg123
+
+
+## TM part require
