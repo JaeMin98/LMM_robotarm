@@ -34,3 +34,5 @@ sudo apt-get install mpg123
 
 
 ## TM part require
+
+추후에 작성
