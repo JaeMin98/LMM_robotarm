@@ -1,0 +1,52 @@
+{
+    "jobfile_pairs": [
+        {
+            "text": "Generate a job file for H2017 robotic arm with Magnetic Gripper installation.",
+            "label": "{\"model\":\"H2017\",\"gripper\":\"Magnetic Gripper\",\"jobfile\":{\"steps\":[{\"action\":\"MOVEJ\",\"S\":60,\"A\":100,\"T\":1,\"coordinates\":[-0.2,-17.54,138.34,-0.33,-0.1,-0.43]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[938.254,-312.028,665.51,90.28,179.04,89.8]},{\"action\":\"MOVEJ\",\"S\":60,\"A\":100,\"T\":1,\"coordinates\":[-23.71,17.21,114.01,-33.88,-45.42,-64.36]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[938.265,-312.076,668.308,90.28,179.04,89.8]},{\"action\":\"MOVEJ\",\"S\":60,\"A\":100,\"T\":1,\"coordinates\":[163.31,-0.51,106.48,-61.27,-24.78,-30.66]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[945.196,-317.002,999.878,89.91,179.11,89]}]}}"
+        },
+        {
+            "text": "Generate a job file for H2017 robotic arm with Two-Finger Gripper installation.",
+            "label": "{\"model\":\"H2017\",\"gripper\":\"Two-Finger Gripper\",\"jobfile\":{\"steps\":[{\"action\":\"MOVEJ\",\"S\":60,\"A\":100,\"T\":1,\"coordinates\":[-0.01,-17.61,138.58,0,0,0.01]},{\"action\":\"MOVEJ\",\"S\":60,\"A\":100,\"T\":1,\"coordinates\":[-11.42,3.58,131.84,-14.88,-46.13,-79.4]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[916.81,-103.143,664.979,89.5,179.79,89.74]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[938.442,-103.325,664.862,89.5,179.79,89.74]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[938.464,-103.34,668.954,89.5,179.79,89.74]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[938.157,-103.362,664.981,89.5,179.79,89.75]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[938.491,-103.338,673.316,89.5,179.79,89.74]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[940.266,-104.774,1061.342,89.5,179.79,89.74]},{\"action\":\"MOVEJ\",\"S\":60,\"A\":100,\"T\":1,\"coordinates\":[185.17,-9.32,110.09,-38.56,-11.94,-51.89]}]}}"
+        },
+        {
+            "text": "Generate a job file for H2017 robotic arm with Three-Finger Gripper installation.",
+            "label": "{\"model\":\"H2017\",\"gripper\":\"Three-Finger Gripper\",\"jobfile\":{\"steps\":[{\"action\":\"MOVEJ\",\"S\":60,\"A\":100,\"T\":1,\"coordinates\":[-0.01,-17.61,138.58,0,0,0.01]},{\"action\":\"MOVEJ\",\"S\":60,\"A\":100,\"T\":1,\"coordinates\":[9.23,5.42,128.97,14.78,-44.71,-100.6]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[918.012,105.878,670.193,89.14,-179.9,89.37]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[938.261,105.574,669.946,89.14,-179.9,89.36]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[938.288,105.576,672.703,89.14,-179.9,89.36]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[938.599,105.599,687.721,89.14,-179.9,89.36]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[943.782,106.013,981.967,89.14,-179.9,89.36]},{\"action\":\"MOVEJ\",\"S\":60,\"A\":100,\"T\":1,\"coordinates\":[187.21,-4.51,112.85,27.02,-21.97,-116.06]}]}}"
+        },
+        {
+            "text": "Generate a job file for H2017 robotic arm with Suction Gripper installation.",
+            "label": "{\"model\":\"H2017\",\"gripper\":\"Suction Gripper\",\"jobfile\":{\"steps\":[{\"action\":\"MOVEJ\",\"S\":60,\"A\":100,\"T\":1,\"coordinates\":[-0.01,-17.61,138.58,0,0,0.01]},{\"action\":\"MOVEJ\",\"S\":60,\"A\":100,\"T\":1,\"coordinates\":[26.27,7.24,128.18,34.67,-51.34,-113.78]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[919.237,288.371,664.059,89.75,180,90.47]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[940.267,288.281,664.254,89.75,180,90.48]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[940.225,288.279,669.061,89.75,180,90.48]},{\"action\":\"MOVEL\",\"S\":250,\"A\":1000,\"T\":1,\"coordinates\":[937.619,288.295,981.52,89.75,-180,90.48]},{\"action\":\"MOVEJ\",\"S\":60,\"A\":100,\"T\":1,\"coordinates\":[192.77,-4.27,113.73,51.26,-24.62,-138.77]}]}}"
+        },
+        {
+            "text": "Generate a job file for HS220 robotic arm with Magnetic installation.",
+            "label": "{\"model\":\"HS220\",\"gripper\":\"Magnetic Gripper\",\"jobfile\":\"Program File Format Version : 1.6 MechType: 693(HS220-03) TotalAxis: 6 AuxAxis: 0 S1 MOVE P,S=60%,A=3,T=1 (21.7,55.2,-16.5,-315.0,31.2,223.7)A S2 MOVE P,S=60%,A=3,T=1 (19.3,57.1,-17.4,-313.2,32.1,221.5)A S3 MOVE P,S=60%,A=3,T=1 (16.0,60.0,-18.8,-310.6,33.5,218.7)A S4 MOVE P,S=60%,A=3,T=1 (12.7,62.9,-20.2,-307.9,34.9,215.8)A S5 MOVE P,S=60%,A=3,T=1 (9.5,65.8,-21.6,-305.2,36.3,212.9)A S6 MOVE P,S=60%,A=3,T=1 (6.2,68.7,-23.0,-302.5,37.7,210.0)A S7 MOVE P,S=60%,A=3,T=1 (3.0,71.6,-24.4,-299.8,39.1,207.1)A S8 MOVE P,S=60%,A=3,T=1 (0.0,74.5,-25.8,-297.0,40.5,204.2)A S9 MOVE P,S=60%,A=3,T=1 (-3.0,77.4,-27.2,-294.2,41.9,201.3)A END\"}"
+        },
+        {
+            "text": "Generate a job file for HS220 robotic arm with Two-Finger Gripper installation.",
+            "label": "{\"model\":\"HS220\",\"gripper\":\"Two-Finger Gripper\",\"jobfile\":\"Program File Format Version : 1.6 MechType: 693(HS220-03) TotalAxis: 6 AuxAxis: 0 S1 MOVE P,S=60%,A=3,T=1 (15.098,76.218,-23.05,-327.989,40.853,241.733)A S2 MOVE P,S=60%,A=3,T=1 (13.064,78.627,-23.826,-325.036,41.168,238.127)A S3 MOVE P,S=60%,A=3,T=1 (11.035,81.026,-24.591,-322.088,41.478,234.515)A S4 MOVE P,S=60%,A=3,T=1 (-7.277,102.669,-31.525,-295.541,44.318,202.025)A S5 MOVE P,S=60%,A=3,T=1 (-11.347,107.474,-33.065,-289.635,44.945,194.815)A S6 MOVE P,S=60%,A=3,T=1 (-15.407,112.289,-34.611,-283.735,45.575,187.589)A S7 MOVE P,S=60%,A=3,T=1 (-23.548,121.902,-37.689,-271.944,46.833,173.152)A S8 MOVE P,S=60%,A=3,T=1 (-29.649,129.12,-40.0,-263.098,47.776,162.327)A S9 MOVE P,S=60%,A=3,T=1 (-35.754,136.326,-42.315,-254.238,48.726,151.494)A S10 MOVE P,S=60%,A=3,T=1 (-37.793,138.727,-43.085,-251.291,49.032,147.891)A S11 MOVE P,S=60%,A=3,T=1 (-42.687,134.176,-41.265,-245.428,46.692,143.848)A S12 MOVE P,S=60%,A=3,T=1 (-47.577,129.625,-39.456,-239.56,44.357,139.794)A S13 MOVE P,S=60%,A=3,T=1 (-52.477,125.072,-37.627,-233.697,42.027,135.756)A S14 MOVE P,S=60%,A=3,T=1 (-59.811,118.234,-34.9,-224.903,38.515,129.689)A S15 MOVE P,S=60%,A=3,T=1 (-64.704,113.679,-33.081,-219.037,36.184,125.64)A S16 MOVE P,S=60%,A=3,T=1 (-69.599,109.127,-31.267,-213.176,33.845,121.603)A S17 MOVE P,S=60%,A=3,T=1 (-74.497,104.571,-29.445,-207.31,31.514,117.55)A S18 MOVE P,S=60%,A=3,T=1 (-79.392,100.017,-27.632,-201.449,29.173,113.505)A END\"}"
+        },
+        {
+            "text": "Generate a job file for HS220 robotic arm with Three-Finger Gripper installation.",
+            "label": "{\"model\":\"HS220\",\"gripper\":\"Three-Finger Gripper\",\"jobfile\":\"Program File Format Version : 1.6 MechType: 693(HS220-03) TotalAxis: 6 AuxAxis: 0 S1 MOVE P,S=60%,A=3,T=1 (14.712,77.815,-22.347,-326.731,41.235,240.375)A S2 MOVE P,S=60%,A=3,T=1 (12.789,80.354,-23.089,-324.102,41.554,236.912)A S3 MOVE P,S=60%,A=3,T=1 (10.867,82.883,-23.83,-321.471,41.874,233.442)A S4 MOVE P,S=60%,A=3,T=1 (-6.123,101.283,-30.997,-296.745,44.121,204.342)A S5 MOVE P,S=60%,A=3,T=1 (-10.215,106.239,-32.542,-290.855,44.753,197.156)A S6 MOVE P,S=60%,A=3,T=1 (-14.303,111.191,-34.089,-284.963,45.387,189.969)A S7 MOVE P,S=60%,A=3,T=1 (-22.482,120.984,-37.175,-273.163,46.651,175.604)A S8 MOVE P,S=60%,A=3,T=1 (-28.623,128.262,-39.506,-264.321,47.598,164.894)A S9 MOVE P,S=60%,A=3,T=1 (-34.754,135.525,-41.841,-255.465,48.552,154.186)A S10 MOVE P,S=60%,A=3,T=1 (-37.812,138.923,-42.925,-251.521,49.034,147.681)A S11 MOVE P,S=60%,A=3,T=1 (-41.952,135.112,-41.112,-246.215,46.995,144.515)A S12 MOVE P,S=60%,A=3,T=1 (-46.096,131.301,-39.304,-240.907,44.956,141.347)A S13 MOVE P,S=60%,A=3,T=1 (-50.236,127.489,-37.492,-235.597,42.916,138.18)A S14 MOVE P,S=60%,A=3,T=1 (-57.542,120.667,-34.783,-226.815,39.412,132.159)A S15 MOVE P,S=60%,A=3,T=1 (-62.428,116.124,-32.972,-220.962,37.091,128.121)A S16 MOVE P,S=60%,A=3,T=1 (-67.321,111.583,-31.162,-215.107,34.764,124.081)A S17 MOVE P,S=60%,A=3,T=1 (-72.218,107.038,-29.351,-209.25,32.439,120.043)A S18 MOVE P,S=60%,A=3,T=1 (-77.113,102.497,-27.539,-203.391,30.112,116.003)A END\"}"
+        },
+        {
+            "text": "Generate a job file for HS220 robotic arm with Suction Gripper installation.",
+            "label": "{\"model\":\"HS220\",\"gripper\":\"Suction Gripper\",\"jobfile\":\"Program File Format Version : 1.6 MechType: 693(HS220-03) TotalAxis: 6 AuxAxis: 0 S1 MOVE P,S=60%,A=3,T=1 (18.5,48.7,-13.7,-308.9,28.9,218.2)A S2 MOVE P,S=60%,A=3,T=1 (16.0,50.5,-14.5,-307.1,29.7,216.3)A S3 MOVE P,S=60%,A=3,T=1 (12.5,53.2,-15.8,-304.5,31.1,213.5)A S4 MOVE P,S=60%,A=3,T=1 (9.0,55.9,-17.1,-301.8,32.5,210.6)A S5 MOVE P,S=60%,A=3,T=1 (5.5,58.6,-18.4,-299.1,33.9,207.7)A S6 MOVE P,S=60%,A=3,T=1 (2.0,61.3,-19.7,-296.4,35.3,204.8)A S7 MOVE P,S=60%,A=3,T=1 (-1.5,64.0,-21.0,-293.6,36.7,201.9)A S8 MOVE P,S=60%,A=3,T=1 (-5.0,66.7,-22.3,-290.8,38.1,199.0)A S9 MOVE P,S=60%,A=3,T=1 (-8.5,69.4,-23.6,-288.0,39.5,196.1)A END\"}"
+        },
+        {
+            "text": "Generate a job file for HX300 robotic arm with Magnetic Gripper installation.",
+            "label": "This robotic arm is not supported for Job File generation."
+        },
+        {
+            "text": "Generate a job file for HX3150 robotic arm with Two-Finger Gripper installation.",
+            "label": "This robotic arm is not supported for Job File generation."
+        },
+        {
+            "text": "Generate a job file for HX3220 robotic arm with Three-Finger Gripper installation.",
+            "label": "This robotic arm is not supported for Job File generation."
+        },
+        {
+            "text": "Generate a job file for H662300 robotic arm with Suction Gripper installation.",
+            "label": "This robotic arm is not supported for Job File generation."
+        }
+    ]
+}
